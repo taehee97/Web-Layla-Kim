@@ -54,14 +54,14 @@ img{
     text-transform: uppercase;
     font-weight: 300;
     position: relative;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .section-heading h1::before,
 .section-heading h1::after {
     content:'';
     position: absolute;
-    bottom: -.5rem;
+    bottom: -.4rem;
     left: 50%;
     transform: translateX(-50%);
     background-color: rgba(255,255,255, .75);
@@ -104,7 +104,8 @@ header{
     background-color: #16162d;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%; 
-    transition: all 650ms cubic-bezier(1, 0, 0, 1)
+    transition: all 650ms cubic-bezier(1, 0, 0, 1);
+
 }
 
 .nav-list{
@@ -262,9 +263,11 @@ li{
 .fa-facebook-square:hover{
     color: #4267b2;
 }
-
-.fa-instagram-square:hover{
-    color: lightgoldenrodyellow;
+.fa-github:hover{
+    color: rgb(247, 215, 165);
+}
+.fa-instagram:hover{
+    color: rgb(243, 98, 236);
 }
 
 
@@ -582,6 +585,7 @@ input[type="submit"]:hover{
     .nav-link{
         font-size: 3.5rem;
     }
+    
 
     .about .container{
         flex-direction: column;
